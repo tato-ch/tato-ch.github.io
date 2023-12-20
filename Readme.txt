@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Thanks for downloading this theme!
 
-Template Name: Serenity
-Template URL: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
+Theme Name: TheEvent
+Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
 Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Author URL: https://bootstrapmade.com
