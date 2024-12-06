@@ -10,7 +10,12 @@
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    
+  <link href="img/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="img/favicon/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="img/favicon/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#ff8115">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -55,9 +60,11 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">Dlaczego warto</a></li>
 <!--          <li><a href="#speakers">Trenerzy</a></li>-->
-          <li><a href="#schedule">Kalendarz spotkań</a></li>
+          <li><a href="#schedule">Najbliższe spotkanie</a></li>
           <li><a href="#venue">Lokalizacja</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Dołącz do spotkań</a></li>
+          <li><a href="#faq">F.A.Q.</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li class="buy-tickets"><a href="#contact">Dołącz do spotkań</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -125,22 +132,20 @@
     <!--==========================
       Speakers Section
     ============================-->
-<!--    <section id="speakers" class="wow fadeInUp">-->
-<!--      <div class="container">-->
-<!--        <div class="section-header">-->
-<!--          <h2>Trenerzy</h2>-->
-<!--          <p>Zapraszamy zewnętrznych trenerów ze stowarzyszenia <a href="https://tato.net/" target="_blank">tato.net</a>.-->
-<!--            Jest to pierwsza organizacja w Polsce wspierająca mężczyzn w wypełnianiu roli ojca,-->
-<!--            a to szkolenie jest przeprowadzane przez nich regularnie.-->
-<!--            <a href="https://tato.net/warsztaty/7-sekretow-efektywnego-ojcostwa" target="_blank">Więcej&nbsp;informacji</a>-->
-<!--            o programie warsztatów możesz znaleźć na stronie stowarzyszenia.</p>-->
-<!--          <br/>-->
-<!--          <p>-->
-<!--            Naszym trenerem będzie <a href="https://tato.net/o-tato-net/zespol/dr-dariusz-cupial" target="_blank">dr Dariusz Ciupał</a> - załoźyciel i dyrektor inicjatywy Tato.net.-->
-<!--          </p>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
+    <!-- <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+      <div class="section-header">
+        <h2>Trenerzy</h2>
+       <p>Zapraszamy zewnętrznych trenerów ze stowarzyszenia <a href="https://tato.net/" target="_blank">tato.net</a>.         Jest to pierwsza organizacja w Polsce wspierająca mężczyzn w wypełnianiu roli ojca,
+           a to szkolenie jest przeprowadzane przez nich regularnie.
+          <a href="https://tato.net/warsztaty/7-sekretow-efektywnego-ojcostwa" target="_blank">Więcej&nbsp;informacji</a>            o programie warsztatów możesz znaleźć na stronie stowarzyszenia.</p>
+          <br/>
+         <p>
+           Naszym trenerem będzie <a href="https://tato.net/o-tato-net/zespol/dr-dariusz-cupial" target="_blank">dr Dariusz Ciupał</a> - załoźyciel i dyrektor inicjatywy Tato.net.
+          </p>
+       </div>
+     </div>
+    </section> -->
 
     <!--==========================
       Schedule Section
@@ -148,7 +153,7 @@
     <section id="schedule" class="section-with-bg">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h2>Kalendarz spotkań</h2>
+          <h2>Najbliższe spotkanie</h2>
           <p>Spotykamy się regularnie co miesiąc. Oto kalendarz naszych spotkań.</p>
         </div>
 
@@ -157,7 +162,7 @@
 <!--            <a class="nav-link" href="#day-1" role="tab" data-toggle="tab">Styczeń</a>-->
 <!--          </li>-->
           <li class="nav-item">
-            <a class="nav-link active" href="#day-2" role="tab" data-toggle="tab">grudzień</a>
+            <a class="nav-link active" href="#day-2" role="tab" data-toggle="tab">grudzień 2024</a>
           </li>
 <!--          <li class="nav-item">-->
 <!--            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Marzec</a>-->
@@ -365,6 +370,15 @@
                     </p>
                   </div>
                 </li>
+                
+                <li>
+                  <a data-toggle="collapse" class="collapsed" href="#faq2">Czy spotkania są płatne? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq2" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Spotkania są bezpłatne. Dobrowolne, niewielkie datki na cele klubu zbierane są spontanicznie podczas niektórych spotkań.
+                    </p>
+                  </div>
+                </li>
 
                 <li>
                   <a data-toggle="collapse" href="#faq3" class="collapsed">W jakim języku będą przeprowadzone warsztaty? <i class="fa fa-minus-circle"></i></a>
@@ -376,8 +390,8 @@
                 </li>
 
                 <li>
-                  <a data-toggle="collapse" href="#faq6" class="collapsed">Czy spotkania zawsze będą odbywać w Rapperswil?<i class="fa fa-minus-circle"></i></a>
-                  <div id="faq6" class="collapse" data-parent="#faq-list">
+                  <a data-toggle="collapse" href="#faq4" class="collapsed">Czy spotkania zawsze będą odbywać w Rapperswil?<i class="fa fa-minus-circle"></i></a>
+                  <div id="faq4" class="collapse" data-parent="#faq-list">
                     <p>
                       Miejsce spotkań w przyszłości może ulec zmianie. Ze względu na klimatyczne miejsce związane z historią i kulturą Polski, zdecydowaliśmy się na siedzibę Biblioteki Muzeum Polskiego w Rapperswil. Większość z nas mieszka w okolicy Zurychu, Lucerny, Zugu, Aarau.
                     </p>
@@ -391,6 +405,87 @@
       </div>
 
     </section>
+
+
+    <!--==========================
+      Gallery Section
+    ============================-->
+    <section id="gallery" class="section-with-bg wow fadeInUp">
+      <div class="container">
+      
+        <!-- Section Title -->
+        <div class="section-header">
+          <h2>Galeria</h2>
+          <p>Kilka zdjęć z naszych spotkań</p>
+        </div><!-- End Section Title -->
+          
+        <!-- div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100" -->
+        <div class="owl-carousel gallery-carousel">
+          <a href="img/gallery/23.09.2023.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/23.09.2023.jpg" alt="Warsztaty 2023 w Bethanien"></a>
+          <a href="img/gallery/13.01.2024.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/13.01.2024.jpg" alt="Pierwsze spotkanie Klubu Ojców"></a>
+          <a href="img/gallery/27.06.2024.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/27.06.2024.jpg" alt="Stabilność w ojcostwie"></a>
+          <a href="img/gallery/24.03.2024.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/24.03.2024.jpg" alt="Warsztaty"></a>
+          <a href="img/gallery/25.10.2024.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/25.10.2024.jpg" alt="Bezpieczeńśtwo w rodzinie"></a>
+          <a href="img/gallery/05.12.2024.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/05.12.2024.jpg" alt="Odporność na stres"></a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="wow fadeInUp">
+      <div class="container">
+      
+        <!-- Section Title -->
+        <div class="section-header">
+          <h2>Kontakt</h2>
+          <p>Przyjdź na spotkanie lub wyślij maila<br />
+          <b>mail pojawi się już wkrótce...</b></p>
+        </div><!-- End Section Title -->
+          
+        <!-- div class="row contact-info">
+
+          <!-- div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Adres</h3>
+              <address>Biblioteka Muzeum Polskiego<br />
+                Hauptplatz 8<br />
+                8640 Rapperswil</address>
+            </div>
+          </div -->
+
+          <!-- div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>xx</h3>
+              <p>xx</p>
+            </div>
+          </div -->
+
+          <!-- div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>E-mail</h3>
+              <p><a href="mailto:ransford@aau.org">ransford@aau.org <br>ndarko@aau.org<br>corevip2023@unam.na
+                </a></p>
+            </div>
+          </div -->
+
+        </div -->
+
+
+        </div>
+
+      </div>
+
+    </section>
+
 
 
 
